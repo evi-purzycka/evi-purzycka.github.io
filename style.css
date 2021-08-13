@@ -476,6 +476,13 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
+    .home{
+    background: url("images/bg947.jpg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -515,7 +522,6 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
-
     .max-width{
         max-width: 930px;
     }
@@ -534,6 +540,9 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+    .typing{
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -554,6 +563,13 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .home{
+        background: url("images/bg500.jpg") no-repeat center;
+        height: 100vh;
+        min-height: 500px;
+        background-size: cover;
+        background-attachment: fixed;
+        }
     .home .home-content .text-2{
         font-size: 50px;
     }
